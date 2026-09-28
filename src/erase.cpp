@@ -27,9 +27,13 @@ int main() {
 
     number.erase(number.begin() + 2, number.begin() + 5);
 
+    // выводим результат
+
     for(auto i : number) {
         std::print("Erase number: {}\n", i);
     }
+
+
 
     
     std::cin.get();
