@@ -34,6 +34,7 @@ int main() {
     }
 
 
+    std::print("Size vector: {}", number.size());
 
     
     std::cin.get();
