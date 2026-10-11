@@ -7,7 +7,7 @@
 
 int main() {
 
-    // std::string name = "LoremLorem Ipsum is simply dummy text of the printing and typesetting industry.";
+    // std::string name = "Lorem Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
 
     // name.insert(name.size(), " GoodBye!!!");
 
@@ -24,6 +24,8 @@ int main() {
 
     std::print("Original: {}\n", text);
     std::print("Output copy: {}\n", text_2);
+
+
 
     std::cin.get();
     return 0;
