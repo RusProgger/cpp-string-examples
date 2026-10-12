@@ -15,6 +15,10 @@ int main() {
 
     localeRussian();
 
+    std::string input_text;
+    std::print("Введите текст: ");
+    std::getline(std::cin, input_text);
+
     
 
 
