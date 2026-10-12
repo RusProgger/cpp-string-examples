@@ -11,7 +11,11 @@ void localeRussian() {
 
 int main() {
 
+    // locale 
 
+    localeRussian();
+
+    
 
 
 
