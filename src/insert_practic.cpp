@@ -14,6 +14,8 @@ int main() {
 
     // locale 
 
+    int choice {};
+
     localeRussian();
 
     std::string input_text;
@@ -27,6 +29,15 @@ int main() {
     std::print("1 - Добавить текст:\n2 - Удалить: \n");
 
     std::print("Ваш ввод: ");
+
+    std::cin >> choice;
+
+    if(choice == 1) {
+        std::print("Введите текст который вы хотите добавить: ");
+        std::string it;
+        std::getline(std::cin, it);
+        input_text.insert(input_text.size(), it);
+    }
 
 
     // add pause
