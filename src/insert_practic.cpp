@@ -1,6 +1,7 @@
 #include <iostream>
 #include <print>
 #include <string>
+#include <windows.h>
 
 // locale 
 
@@ -19,9 +20,9 @@ int main() {
     std::print("Введите текст: ");
     std::getline(std::cin, input_text);
 
+    std::print("Ваш текст: {}", input_text);
+
     
-
-
 
     // add pause
     std::cin.get();
