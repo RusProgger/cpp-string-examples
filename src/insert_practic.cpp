@@ -37,6 +37,8 @@ int main() {
         std::string it;
         std::getline(std::cin, it);
         input_text.insert(input_text.size(), it);
+    } if else(choice == 2) {
+        
     }
 
 
