@@ -10,7 +10,7 @@ int main() {
     std::cout << "Size: " << text.size() << "\n";
 
 
-    std::vector<int> vc = {20, 30, 560};
+    std::vector<int> vc = {20, 30, 560, 40, 84};
 
     int count = 1;
 
@@ -19,7 +19,7 @@ int main() {
         count++;
     }
 
-    std::cout << "Size vector: " << vc.size();
+    std::cout << "Size vector: " << vc.size() << "\n";
 
 
     // add pause
