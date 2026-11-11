@@ -11,7 +11,9 @@ int main() {
 
     text.clear();
 
-    std::cout << "After: " <<  text <<  text.size() << "\n";
+    std::cout << "After: " <<  text <<  "\n";
+    
+    std::cout << text.size() << "\n";
 
     return 0;
 }
