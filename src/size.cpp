@@ -10,7 +10,7 @@ int main() {
     std::cout << "Size: " << text.size() << "\n";
 
 
-    std::vector<int> vc = {20, 30, 560, 40, 84, 55, 1, 0, 17};
+    std::vector<int> vc = {20, 30, 560, 40, 84, 55, 1, 0, 17, 91};
 
     int count = 1;
 
