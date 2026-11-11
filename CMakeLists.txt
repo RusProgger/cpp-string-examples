@@ -23,7 +23,7 @@ add_executable(size
     src/size.cpp
 )
 
-add_executable(insert
+add_executable(clear
     src/clear.cpp
 )
 
