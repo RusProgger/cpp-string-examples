@@ -13,7 +13,7 @@ int main() {
 
     std::cout << "After: " <<  text <<  "\n";
     
-    std::cout << text.size() << "\n";
+    std::cout << "Size: " << text.size() << "\n";
 
     return 0;
 }
